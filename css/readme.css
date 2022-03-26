@@ -1,0 +1,197 @@
+.clearfix:after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+ul
+{
+    margin: 0;
+}
+
+header
+{
+    background: rgba(0, 0, 0, 0);
+    background: #333;
+    top:0;
+    position:fixed;/* 绝对定位，fixed是相对于浏览器窗口定位。 */
+    width:100%; /* 宽度设置为100% */
+    left:0;
+    z-index:99;
+}
+
+nav{
+    background: transparent;
+    height: 50px;
+}
+#banner{
+    height: 1000px;
+    width:100%; /* 宽度设置为100% */
+    position: relative;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    float: right;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li, nav .logo
+{
+    display: inline-block;
+    line-height: 50px;
+    margin: 5px;
+    text-decoration: none;
+    height: inherit;
+
+}
+
+nav ul li a{
+    line-height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color: #fff;
+
+}
+
+nav ul li.logo{
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+#banner .banner-left
+{
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    position:relative;
+    top: 50px;
+    float: left;
+
+
+}
+#banner .banner-right
+{
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    float: right;
+
+}
+
+#banner .banner-right h1
+{
+    text-align: center;
+    margin: 0 auto;
+
+
+
+}
+
+#banner .banner-right h3
+{
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+#banner .banner-right p
+{
+    max-width: 300px;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 10px;
+
+}
+
+
+.logo
+{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.logo a
+{
+    color: #fff;
+}
+
+h2
+{
+    font-size: 30px;
+}
+
+h3
+{
+    font-size: 24px;
+}
+
+p
+{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.hr
+{
+    width: 100%;
+    height: 2px;
+    margin: 20px auto;
+}
+
+footer
+{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    min-height: 100px;
+    width: 100%;
+
+}
+
+ul.share-group
+{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.share-group li
+{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.share-group li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.copy
+{
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.index-wrapper
+{
+    background: #444444 url(../img/readme.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
